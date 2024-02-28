@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.panaderiahu.controllers.AgregarPanController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="105.0" style="-fx-background-color: #F3D6AD;" />
+      <Label layoutX="209.0" layoutY="27.0" text="Agregar PAN">
+         <font>
+            <Font name="Century751 No2 BT Bold" size="27.0" />
+         </font>
+      </Label>
+      <VBox layoutX="131.0" layoutY="100.0" prefHeight="200.0" prefWidth="242.0" spacing="5.0">
+         <children>
+            <Label text="Nombre del pan">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textPan" />
+            <Label text="Costo">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textCosto" />
+            <Label text="Tipo de pan">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textTipoPan" />
+         </children>
+      </VBox>
+      <Button fx:id="bttonAgregar" layoutX="258.0" layoutY="338.0" mnemonicParsing="false" onMouseClicked="#bttonAgregar" text="Agregar" />
+      <Button fx:id="bttonVolver" layoutX="440.0" layoutY="338.0" mnemonicParsing="false" onMouseClicked="#bttonVolver" text="Volver" />
+   </children>
+</AnchorPane>

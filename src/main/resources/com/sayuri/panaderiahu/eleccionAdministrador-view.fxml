@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sayuri.panaderiahu.controllers.EleccionAdministradorController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFCDA5;">
+         <children>
+            <Pane prefHeight="400.0" prefWidth="63.0" style="-fx-background-color: white;" />
+            <Label layoutX="191.0" layoutY="37.0" text="Eliga una opcion " textFill="WHITE">
+               <font>
+                  <Font name="Century751 No2 BT Bold" size="28.0" />
+               </font>
+            </Label>
+            <Button fx:id="bttonAddPan" layoutX="88.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#bttonAddPan" text="Agregar pan" />
+            <Button fx:id="bttonAddPastel" layoutX="90.0" layoutY="200.0" mnemonicParsing="false" onMouseClicked="#bttonAddPastel" text="Agregar pastel" />
+            <Button fx:id="bttonAddGalleta" layoutX="88.0" layoutY="150.0" mnemonicParsing="false" onMouseClicked="#bttonAddGalleta" text="Agregar galleta" />
+            <Button fx:id="bttonAddEmpleado" layoutX="90.0" layoutY="257.0" mnemonicParsing="false" onMouseClicked="#bttonAddEmpleado" text="Agregar empleado" />
+            <Button fx:id="bttonVolver" layoutX="281.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#bttonVolver" text="volver" />
+            <Button fx:id="bttonViewPan" layoutX="404.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#bttonViewPan" text="Mostrar pan" />
+            <Button fx:id="bttonViewGalleta" layoutX="404.0" layoutY="150.0" mnemonicParsing="false" onMouseClicked="#bttonViewGalleta" text="Mostrar galleta" />
+            <Button fx:id="bttonViewPastel" layoutX="404.0" layoutY="200.0" mnemonicParsing="false" onMouseClicked="#bttonViewPastel" text="Mostrar pastel" />
+            <Button fx:id="bttonViewEmpleado" layoutX="404.0" layoutY="257.0" mnemonicParsing="false" onMouseClicked="#bttonViewEmpleado" text="Mostrar empleado" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
